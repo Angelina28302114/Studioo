@@ -260,3 +260,59 @@
   letter-spacing: 1.08px;
     color: var(--textar-color);
   }
+
+  body{
+    /* font-family: 'Raleway', sans-serif; */
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .logo{
+    font-family: 'Raleway', sans-serif;
+    /* color: #2196F3; */
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.78px;
+  }
+
+  .thumb{
+    font-family: 'Raleway', sans-serif;
+    /* color: #000; */
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.78px;
+  }
+
+  .desc{
+    font-family: 'Raleway', sans-serif;
+    /* color: #FFF; */
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.78px;
+  }
+
+  /* .menu-link{
+    color: #212121;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.28px;
+  }  */
+
+
+  /* teroy */
+  /* .title{
+text-align: center;
+font-size: 44px;
+font-weight: 900;
+line-height: 60px; /* 136.364% */
+/* letter-spacing: 2.64px;
+text-transform: uppercase;
+   */ 
