@@ -1,29 +1,29 @@
 :root{
-    --logo-color: #2196F3;
-    --thumb-color: #000;
-    --menu-color: #212121;
+    --header-logo-color: #2196F3;
+    --header-logo-title-color: #000;
+    --header-menu-color: #212121;
     --accent-color: #2196F3;
-    --title-color: #FFF;
-    --selectors-background: #2F303A;
-    --button-background: #2196F3;
-    --heading-color: #212121;
-    --headingg-color: #212121;
-    --subtitle-color: #757575;
+    --section-title-color: #FFF;
+    --section-background: #2F303A;
+    --section-button-background: #2196F3;
+    --section-yvaga-title-color: #212121;
+    --section-zaymaemos-title-color: #212121;
+    --section-yvaga-text-color: #757575;
     --subtitlie-color: #757575;
-    --subtitlee-color: #757575;
+    --section-img-text-color: #757575;
     --square-background: #f5f4fa;
-    --caption-color: #212121;
+    --section-img-title-color: #212121;
     --footer-background: #2F303A;
-    --desc-color: #FFF;
+    --footer-logo-color: #FFF;
     --cursor:pointer;
-    --address-color: #FFF;
-    --addresss-color: rgba(255, 255, 255, 0.60);
+    --address-title-color: #FFF;
+    --address-text-color: rgba(255, 255, 255, 0.60);
   
-    --copy-color: #757575;
-    --buttonn-background: #F5F4FA;
-    --buttonnn-background: #F5F4FA;
+    --address-item-color: #757575;
+    --section-img-background: #F5F4FA;
+    --section-portfolio-buton-background: #F5F4FA;
     /* колір тексту */
-    --textar-color: #212121;
+    --section-portfolio-title-color: #212121;
     /*  */
     --portfolio-color: #f5f4fa;
   /* мінус посилання */
@@ -31,8 +31,8 @@
     --accent-color: #2196F3;
   }
   
-  .menu:hover
-  .menu:focus{
+  .header-menu:hover
+  .header-menu:focus{
     color: var(--menu-color);
     cursor: var(--cursor);
   }
@@ -40,19 +40,19 @@
   /* .address:hover
   .address:focus{} */
   
-  .menu:hover,
-  .menu:focus {
+  .header-menu:hover,
+  .header-menu:focus {
     color: var(--accent-color);
     cursor: var(--cursor);
   }
   
-  .buttonnn:hover,
-  .buttonnnn:focus {
+  .section-portfolio-buton:hover,
+  .section-portfolio-buton:focus {
     background-color: var(--accent-color);
     cursor: var(--cursor);
   }
   
-  .copy:hover
+  .address-item:hover
   /* .copy:focus*/ { 
     color: var(--accent-color);
     cursor: var(--cursor);
@@ -65,7 +65,7 @@
   
   
   
-  .logo {
+  .header-logo {
     font-family: Raleway;
     font-size: 26px;
     font-style: normal;
@@ -79,7 +79,7 @@
       text-decoration: aliceblue;
   }
   
-  .thumb {
+  .header-logo-title {
     font-family: Raleway;
   font-size: 26px;
   font-style: normal;
@@ -89,19 +89,19 @@
     color: var(--thumb-color);
   }
   
-  .menu {
+  .header-menu {
     color: var(--menu-color);
   }
   
-  .copy {
+  .address-item {
      color: var(--copy-color);
   }
   
-  .selectors {
+  .section {
     background-color: var(--selectors-background);
   }
   
-  .title {
+  .section-title {
     text-align: center;
   font-family: Roboto;
   font-size: 44px;
@@ -113,7 +113,7 @@
     color: var(--title-color);
   }
   
-  .button {
+  .section-button {
     color: var(--button-background);
     font-size: 20px;
     color: white;
@@ -125,7 +125,7 @@
     height: 50px;
   }
   
-  .heading {
+  .section-yvaga-title {
     font-family: Roboto;
   font-size: 14px;
   font-style: normal;
@@ -136,7 +136,7 @@
     color: var(--heading-color);
   }
   
-  .headingg {
+  .section-zaymaemos-title {
     text-align: center;
   font-family: Roboto;
   font-size: 36px;
@@ -147,7 +147,7 @@
     color: var(--heading-color);
   }
   
-  .subtitle {
+  .section-yvaga-text {
     font-family: Roboto;
   font-size: 14px;
   font-style: normal;
@@ -167,7 +167,7 @@
   color: var(--subtitle-color);
   }
   
-  .subtitlee {
+  .section-img-text {
     text-align: center;
   font-family: Roboto;
   font-size: 16px;
@@ -178,7 +178,7 @@
     color: var(--subtitle-color);
   }
   
-  .caption {
+  .section-img-title {
     text-align: center;
   font-family: Roboto;
   font-size: 16px;
@@ -196,7 +196,7 @@
       flex-shrink: 0;
   }
   
-  .desc {
+  .footer-logo {
     font-family: Raleway;
   font-size: 26px;
   font-style: normal;
@@ -206,7 +206,7 @@
     color: var(--desc-color);
   }
   
-  .address {
+  .address-title {
     font-family: Roboto;
   font-size: 14px;
   font-style: normal;
@@ -216,7 +216,7 @@
     color: var(--address-color);
   }
   
-  .addresss {
+  .address-text {
     font-family: Roboto;
   font-size: 14px;
   font-style: normal;
@@ -226,7 +226,7 @@
     color: var(--addresss-color);
   }
   
-  .buttonn {
+  .section-img {
       background-color: #F5F4FA;
       width: 1300px;
       height: 1500px;
@@ -237,7 +237,7 @@
     list-style: none;
   }
   
-  .buttonnn {
+  .section-portfolio-buton {
     border-radius: 4px;
     background: #F5F4FA;
     font-size: 20px;
@@ -247,11 +247,22 @@
     text-decoration: #212121;
   }
   
-  .portfolio {
+  /* .portfolio {
     color: white;
+  } */
+
+  .c {
+    position: absolute !important;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px, 1px, 1px, 1px);
+    padding: 0 !important;
+    border: 0 !important;
+    height: 1px !important;
+    width: 1px !important;
+    overflow: hidden;
   }
   
-  .textar {
+  .section-portfolio-title {
     font-family: Roboto;
   font-size: 18px;
   font-style: normal;
@@ -316,3 +327,14 @@ line-height: 60px; /* 136.364% */
 /* letter-spacing: 2.64px;
 text-transform: uppercase;
    */ 
+
+   .visually-hidden {
+    position: absolute !important;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px, 1px, 1px, 1px);
+    padding: 0 !important;
+    border: 0 !important;
+    height: 1px !important;
+    width: 1px !important;
+    overflow: hidden;
+  }
