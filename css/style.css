@@ -1,6 +1,6 @@
 :root{
-    --header-logo-color: #2196F3;
-    --header-logo-title-color: #000;
+    --logo-color: #2196F3;
+    --header-logo-color: #000;
     --header-menu-color: #212121;
     --accent-color: #2196F3;
     --section-title-color: #FFF;
@@ -65,7 +65,7 @@
   
   
   
-  .header-logo {
+  .logo {
     font-family: Raleway;
     font-size: 26px;
     font-style: normal;
@@ -79,7 +79,7 @@
       text-decoration: aliceblue;
   }
   
-  .header-logo-title {
+  .thumb {
     font-family: Raleway;
   font-size: 26px;
   font-style: normal;
