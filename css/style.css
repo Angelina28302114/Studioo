@@ -70,6 +70,9 @@ p {
     margin-right: 50px;
     color: var(--menu-color);
   }
+  .header-menu{
+    color: var(--menu-color);
+  }
 
   .address {
     margin-left: 334px;
@@ -77,11 +80,12 @@ p {
 
   .address-item{
     font-style: normal;
+    margin-right: 50px;
   }
 
   .header-menu-item{
     display: flex;
-
+    margin-right: 50px;
   }
 
   .header-menu:focus{
@@ -109,7 +113,7 @@ p {
     
 
   .section-button {
-      width: 696px;
+      /* width: 696px; */
       color: var(--button-background);
       font-size: 16px;
       color: white;
@@ -117,8 +121,8 @@ p {
       text-decoration: #2196F3;
       border: none;
       border-radius: 4px;
-      width: 200px;
-      height: 50px;
+      /* width: 200px; */
+      /* height: 50px; */
       line-height: 1.875; 
 
       display: flex;
@@ -136,6 +140,8 @@ p {
     color: var(--email-color);
     font-size: 14px;
     line-height: 1.7;
+
+    display: block;
  }
 
  .section-zaymaemos-title {
@@ -197,14 +203,20 @@ p {
  }
 
  .section-portfolio-buton {
-  border-radius: 4px;
+   border-radius: 4px;
   background: #F5F4FA;
   font-size: 20px;
   width: 120px;
   border: none;
   height: 30px;
   text-decoration: #212121;
-  line-height: 1.625; 
+  line-height: 1.625;  
+
+  display: flex-wrap;
+
+    /* display: flex;
+     gap: 8px;  */
+
 
    /* margin-left: 334px; */
 }
@@ -213,6 +225,12 @@ p {
 .section-portfolio-buton:focus {
   background-color: var(--accent-color);
   cursor: var(--cursor);
+  }
+
+  .section-portfolio-buton{
+    display: table;
+      color: var(--blak-color);
+    
   }
 
 .section-portfolio-title{
@@ -241,3 +259,11 @@ p {
     cursor: var(--cursor);
   }
   
+  /* .section-portfolio-buton {
+    display: flex;
+     gap: 8px; 
+} */
+
+
+
+
