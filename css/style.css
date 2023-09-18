@@ -10,6 +10,12 @@
     overflow: hidden;
   }
 
+  .container{
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
   :root{
     --accent-color: #2196F3;
     --logoo-nomber-two-color: #000;
@@ -158,6 +164,22 @@ p {
   font-style: normal;
  }
 
+
+
+
+
+ .section-portfolio-list{
+  gap: 8px;
+  display: flex;
+  margin-bottom: 50px;
+}
+
+
+
+
+
+
+
  .section-img-title {
   color: var(--menu-color);
   text-align: center;
@@ -206,11 +228,11 @@ p {
    border-radius: 4px;
   background: #F5F4FA;
   font-size: 20px;
-  width: 120px;
-  border: none;
-  height: 30px;
+  border: none; 
   text-decoration: #212121;
-  line-height: 1.625;  
+  line-height: 1.625; 
+  
+  padding: 6px 22px;
 
   display: flex-wrap;
 
@@ -276,5 +298,3 @@ p {
 
     display: flex;
 } */
-
-
