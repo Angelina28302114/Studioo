@@ -91,9 +91,17 @@ p {
     margin-right: 50px;
   }
 
+
+  .header-menu-itee{
+    margin-right: 50px;
+    display: flex;
+  }
+
   .header-menu-item{
     display: flex;
-    margin-right: 50px;
+    
+    padding-left: 0px;
+    
   }
 
   .header-menu:focus{
@@ -302,3 +310,7 @@ p {
 
     display: flex;
 } */
+
+.header > .container{
+  display: flex;
+}                                                                                                                                                                                                     
