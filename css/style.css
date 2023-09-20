@@ -199,8 +199,10 @@ p {
 
  .footer {
   background-color: var(--back-background);
-  width: 1600px;
-  height: 252px;
+  /* width: 1600px;
+  height: 252px; */
+
+  
  }
 
  .footer-logo {
