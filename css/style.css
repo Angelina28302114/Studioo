@@ -29,7 +29,7 @@
   }
 
   .logo {
-    margin-left: 94px;
+    margin-right: 94px;
 
     font-size: 26px;
     font-family: 'Raleway', sans-serif; 
@@ -93,22 +93,25 @@ p {
 
 
   .header-menu-itee{
-    margin-right: 50px;
     display: flex;
+
+    padding-left: 0px;
   }
 
-  .header-menu-item{
-    display: flex;
-    
-    padding-left: 0px;
-    
+  .header-menu-item:not(:last-child){
+    margin-right: 50px;
   }
+    
+    
+  
 
   .header-menu:focus{
     color: var(--accent-color);
   }
 
-  .address-item{
+  .address-item:not(:last-child){
+   margin-right: 50px;
+
     color: var(--email-color);
   }
 
